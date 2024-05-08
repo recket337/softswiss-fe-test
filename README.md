@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Описание техническое задание на позицию Frontend разработчика
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Тестовое задание заключается в верстке одной страницы SPA вымышленного приложения. Используйте дизайн в Figma, все нужные элементы есть там: изображения, фоны, логотипы, формы кнопок, цвета и шрифты.
 
-## Available Scripts
+Стандартный уровень: Адаптивная верстка всех элементов страницы с использованием препроцессора SASS.
+Средний уровень: Адаптивная верстка с использованием препроцессора SASS, реализация интерактивных элементов при наведении, реализация логики бургер-меню для мобильных устройств с использованием JavaScript.
+Высокий уровень: Адаптивная верстка, реализация интерактивных элементов при наведении, реализация логики бургер-меню и кнопки "Read more" для мобильных устройств без использования JavaScript (Используя CSS).
 
-In the project directory, you can run:
+Требования:
+Верстка должна точно соответствовать макету и быть полностью адаптивной. Дизайн включает три вьюпорта, поэтому следует ориентироваться на них.
+Запрещено использование любых фреймворков или библиотеки для создания адаптивного дизайна.
+При создании сеток следует использовать flex/grid.
+Для реализации фона рекомендуется использовать Multiple Backgrounds.
+Изображения необходимо оптимизировать и, если возможно, использовать SVG.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Рекомендации
+Для создания проекта рекомендуется использовать react-шаблон через команду npx create-react-app my-app 
+2а) Альтернативно уже с SASS через команду:  npx create-react-app cra-sass
+Верстку следует реализовать в компоненте App.js.
+Стили рекомендуется хранить в файле App.scss. Использование препроцессора по желанию.
+Для наименования классов предпочтительна методология БЭМ.
+В реализации можно добавлять различные данные и использовать React Hooks.
+Проект следует присылать в архиве без папки node modules, с указанием своей конкретной версии node и npm. 
+Дополнительно можно развернуть на github page 
+инструкция hhttps://www.youtube.com/watch?v=jnyMoXlbEno 
