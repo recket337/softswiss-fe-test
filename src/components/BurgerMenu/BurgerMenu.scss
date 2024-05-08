@@ -1,0 +1,73 @@
+.burger-toggle {
+    display: none;
+
+    &:checked~.menu {
+        right: 0;
+    }
+}
+
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+    background: transparent;
+    color: white;
+    width: 35px;
+    height: 20px;
+    position: relative;
+}
+
+.burger-icon::before,
+.burger-icon::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: white;
+
+}
+
+.burger-icon::before {
+    top: 0;
+    box-shadow: 0 8px 0 #ffffff;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+
+.burger-icon::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+}
+
+.burger-toggle:checked+.burger-icon::before {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+
+.burger-toggle:checked+.burger-icon::after {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 60px 20px 20px;
+    transition: 0.3s;
+    z-index: 998;    
+}
+
+@media screen and (max-width: 600px) {
+    .burger-icon {
+        display: block;
+    }
+}

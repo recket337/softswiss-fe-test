@@ -1,0 +1,55 @@
+$yellow: #EBFF00;
+$secondary_yellow: rgba(235, 255, 0, 0.6);
+
+h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 38px;
+}
+
+button {
+    font: inherit;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.clear {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.button {
+    font-family: "Lato", sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 22px;
+    width: 191px;
+    height: 54px;
+    border: none;
+    border-radius: 26px;
+}
+
+.button-primary {
+    background-color: $yellow;
+
+    &:hover {
+        background-color: $secondary_yellow;
+    }
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: $yellow;
+    border: 2px solid $yellow;
+
+    &:hover {
+        border-color: $secondary_yellow;
+        color: $secondary_yellow;
+    }
+}
