@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/softswiss-fe-test/static/css/main.ecad6a53.css",
+    "main.js": "/softswiss-fe-test/static/js/main.c82acc01.js",
+    "static/js/453.33d3d367.chunk.js": "/softswiss-fe-test/static/js/453.33d3d367.chunk.js",
+    "static/media/discover-background.jpg": "/softswiss-fe-test/static/media/discover-background.680ad61e4be0df2600d4.jpg",
+    "static/media/rocket.svg": "/softswiss-fe-test/static/media/rocket.a4389852c90b9d43571cac86eea0e8ab.svg",
+    "static/media/fourth.jpg": "/softswiss-fe-test/static/media/fourth.e60090cce5027c4d62ad.jpg",
+    "static/media/first.jpg": "/softswiss-fe-test/static/media/first.2eab7e53ac8cfa10331d.jpg",
+    "static/media/earth.png": "/softswiss-fe-test/static/media/earth.a15c5c5deb073ba77961.png",
+    "static/media/third.jpg": "/softswiss-fe-test/static/media/third.b95c4e045460d3e18ce8.jpg",
+    "static/media/second.jpg": "/softswiss-fe-test/static/media/second.c41508b8c8e6cc877ba3.jpg",
+    "static/media/main-page-logo.svg": "/softswiss-fe-test/static/media/main-page-logo.f4153131d3955bdfa609912a9f3b5caf.svg",
+    "static/media/purchase.svg": "/softswiss-fe-test/static/media/purchase.b697889a2021dbe00a30dd5ff69f0034.svg",
+    "index.html": "/softswiss-fe-test/index.html",
+    "main.ecad6a53.css.map": "/softswiss-fe-test/static/css/main.ecad6a53.css.map",
+    "main.c82acc01.js.map": "/softswiss-fe-test/static/js/main.c82acc01.js.map",
+    "453.33d3d367.chunk.js.map": "/softswiss-fe-test/static/js/453.33d3d367.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecad6a53.css",
+    "static/js/main.c82acc01.js"
+  ]
+}
